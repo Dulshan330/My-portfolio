@@ -1,0 +1,58 @@
+.hero2{
+    background-color: #212529;
+    height: auto;
+    width: 100%;
+    padding-top: 15px;
+}
+.hero2-header{
+    color: white;
+    text-transform: capitalize;
+    font-size: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 50px;
+}
+.hero2-maindiv{
+    display: flex;
+}
+.hero2-subdiv1{
+    display: block;
+    height: 300px;
+    width: 60%;    
+    margin: auto;
+    color: #73848e;
+}
+.hero2-subdiv2{
+    display: block;
+    height: 300px;
+    width: 40%;    
+    margin: auto;
+    padding: 2% 8%;
+    color: #73848e;
+}
+.hero2-name-span{
+    color: #20c997  ;
+}
+.hero2-name{
+    color: white;
+    font-size: 25px;
+    padding: 3% 10%;
+}
+.hero2-subdiv1 p{
+    padding: 0% 10%;
+}
+.animation-text{
+    color: white;
+}
+.tag{
+    color: white;
+    font-weight: bolder;
+}
+.tag-answer{
+    color: white;
+}
+.hero2-subdiv2 hr{
+    border-top: 1px #73848e;
+    margin-top: 15px;
+    
+}

@@ -1,0 +1,60 @@
+.welcome{
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 36px;
+    font-weight: normal;
+}
+.name{
+    text-transform: capitalize;
+    color: white;
+    text-align: center;
+    font-size: 70px; 
+}
+
+.address{
+    color: white;
+    text-align: center;
+    font-weight: normal;
+    font-size: 23px;
+}
+.hero h3{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    padding: 20px;
+}   
+
+.bannerBtn{
+    color: #20c997;
+    background-color: transparent;
+    padding: 20px 40px;
+    border-radius: 50px;
+    font-size: 20px;
+    border: solid #20c997 2px;
+}
+
+.bannerBtn:hover{
+    color: white;
+    background-color: #20c997;
+}
+
+
+
+
+
+
+@media only screen and (min-width: 1366px) {
+    .name{
+        font-size: 50px;
+    }
+    .welcome{
+        font-size: 30px;
+    }
+    .address{
+        font-size: 20px;
+    }
+  }

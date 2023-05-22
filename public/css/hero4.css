@@ -1,0 +1,90 @@
+.hero4{
+    background-color: #343a40;
+    height: auto;
+    width: 100%;
+}
+.hero4-header{
+    color: white;
+    text-transform: capitalize;
+    font-size: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 50px;
+}
+.hero4-maindiv{
+    display: flex;
+}
+.hero4-subdiv1{
+    display: block;
+    height: auto;
+    width: 65%;    
+    margin: auto;
+    color: #A9A9A9;
+    padding: 2% 8%;
+}
+.hero4-subdiv2{
+    display: block;
+    height: auto;
+    width: 35%;    
+    margin: auto;
+    padding: 2% 8%;
+    color: #A9A9A9;
+}
+.hero4-title{
+    color: white;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+}
+.hero4-address{
+    padding-top: 5%;
+}
+#icon{
+    color: 20c997;
+    font-size: 24px;
+}
+.hero4-contacts{
+    display: flex;
+}
+.hero4-tags{
+    color: #A9A9A9;
+}
+.hero4-textarea,.hero4-input{
+    width: 100%;
+    border-radius: 6px;
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    margin: 5px;
+    background-color: #212529;
+    border: none;
+    outline: none;
+}
+
+#hero4-send-btn{
+    color: #20c997;
+    background-color: transparent;
+    text-align: center;
+    display: block;
+    margin: 3px auto;
+    padding: 10px 20px;
+    text-transform: capitalize;
+    border-radius: 50px;
+    font-size: 20px;
+    border: solid #20c997 2px;
+}
+#hero4-send-btn:hover{
+    color: white;
+    background-color: #20c997;
+}
+#social-icon{
+    font-size: 24px;
+    margin: 0 6px;
+}
+a{
+    color: #A9A9A9;
+}
+a:hover{
+    color: #20c997;
+}
